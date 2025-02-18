@@ -1,0 +1,7 @@
+dataset/bg/*
+dataset/carvana-image-masking-challenge/*
+dataset/images/*
+dataset/masked_img/*
+dataset/used_sets
+dataset/carvana-image-masking-challenge.zip
+*.tar
