@@ -8,7 +8,7 @@ import csv
 # no_bg
 # default
 
-FOLDER="../used_sets/default/"
+FOLDER="../used_sets/random_bg/"
 
 DEST="../f_dataset/"+FOLDER.split('/')[2]+"/"
 os.makedirs(DEST)
@@ -61,21 +61,21 @@ def categorize(name: str):
     tmp=name.split('_')[1]
     cat=""
     if tmp=='01':
-        cat="t" #toward
+        cat="0" #toward
     elif tmp>'01' and tmp<'05':
-        cat="tl" #toward left
+        cat="1" #toward left
     elif tmp=='05':
-        cat="l" #left
+        cat="2" #left
     elif tmp>'05' and tmp<'09':
-        cat='bl' #bickering left
+        cat='3' #bickering left
     elif tmp=='09':
-        cat='b' #bickering
+        cat='4' #bickering
     elif tmp>'09' and tmp<'13':
-        cat='br' #bickering right
+        cat='5' #bickering right
     elif tmp=='13':
-        cat='r' #right
+        cat='6' #right
     else:
-        cat='tr' #toward right
+        cat='7' #toward right
     
     return cat
 
