@@ -1,0 +1,12 @@
+Best Default:
+    Accuracy on default dataset: 97.0362
+    Accuracy on no_bg dataset: 30.1069
+    Accuracy on random_bg dataset: 40.8029
+Best no_bg:
+    Accuracy on default dataset: 25.0148
+    Accuracy on no_bg dataset: 97.4466
+    Accuracy on random_bg dataset: 26.4829
+Best Random_BG:
+    Accuracy on default dataset: 58.0913 new: 55.3646 v2: 58.8026
+    Accuracy on no_bg dataset: 40.4394 new: 47.7435 v2: 51.4252
+    Accuracy on random_bg dataset: 93.8286 new: 94.5476 v2: 93.9485
