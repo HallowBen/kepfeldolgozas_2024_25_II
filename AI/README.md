@@ -1,1 +1,1 @@
-Trained models: later
+Trained models: https://cloud.mdnd-it.cc/s/4rtRY8w923PEx2g
