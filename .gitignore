@@ -1,4 +1,4 @@
 dataset/f_dataset/*
-AI/dataset/*
+AI/models/*
 *.tar
 *.zip
